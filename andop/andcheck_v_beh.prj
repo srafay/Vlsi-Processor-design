@@ -1,0 +1,3 @@
+verilog work "and.v"
+verilog work "andcheck.v"
+verilog work "C:/Xilinx91i/verilog/src/glbl.v"

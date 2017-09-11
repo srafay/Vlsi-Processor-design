@@ -1,0 +1,4 @@
+MO aludec NULL ../aludec/aludec.v vlg02/aludec.bin 1491052224
+MO outputlogic NULL ../outputlogic/outputlogic.v vlg43/outputlogic.bin 1491052224
+MO statelogic NULL ../statelogic/statelogic.v vlg3B/statelogic.bin 1491052224
+MO controller NULL controller.v vlg54/controller.bin 1491052224

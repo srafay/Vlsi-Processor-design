@@ -1,0 +1,2 @@
+xst -ise "C:/Xilinx91i/inverter/inverter.ise" -intstyle ise -ifn inv.xst -ofn inv.syr
+xst -ise "C:/Xilinx91i/inverter/inverter.ise" -intstyle ise -ifn inv.xst -ofn inv.syr

@@ -1,0 +1,1 @@
+xst -ise "D:/vlsiproject/adder/adder.ise" -intstyle ise -ifn testbench.xst -ofn testbench.syr

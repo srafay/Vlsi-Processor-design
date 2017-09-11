@@ -1,0 +1,10 @@
+V3 7
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/regfile/regcheck.v" 2017/03/06.08:01:52 J.30
+MO isim_temp/regcheck_v \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/regfile/regcheck.v" \
+      MI regd
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/regfile/regd.v" 2017/04/01.08:50:14 J.30
+MO isim_temp/regd \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/regfile/regd.v"
+FL $XILINX/verilog/src/glbl.v 2006/12/01.16:44:50 J.30
+MO isim_temp/glbl FL $XILINX/verilog/src/glbl.v

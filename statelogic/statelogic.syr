@@ -1,0 +1,384 @@
+Release 9.1i - xst J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.15 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.15 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: statelogic.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "statelogic.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "statelogic"
+Output Format                      : NGC
+Target Device                      : xc3s50-4-pq208
+
+---- Source Options
+Top Module Name                    : statelogic
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : statelogic.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "statelogic.v" in library work
+Module <statelogic> compiled
+No errors in compilation
+Analysis of file <"statelogic.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <statelogic> in library <work> with parameters.
+	BEQ = "00000000000000000000000000000100"
+	BEQEX = "00000000000000000000000000001011"
+	DECODE = "00000000000000000000000000000100"
+	FETCH1 = "00000000000000000000000000000000"
+	FETCH2 = "00000000000000000000000000000001"
+	FETCH3 = "00000000000000000000000000000010"
+	FETCH4 = "00000000000000000000000000000011"
+	J = "00000000000000000000000000000010"
+	JEX = "00000000000000000000000000001100"
+	LB = "100000"
+	LBRD = "00000000000000000000000000000110"
+	LBWR = "00000000000000000000000000000111"
+	MEMADR = "00000000000000000000000000000101"
+	RTYPE = "00000000000000000000000000000000"
+	RTYPEEX = "00000000000000000000000000001001"
+	RTYPEWR = "00000000000000000000000000001010"
+	SB = "101000"
+	SBWR = "00000000000000000000000000001000"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <statelogic>.
+	FETCH1 = 32'sb00000000000000000000000000000000
+	FETCH2 = 32'sb00000000000000000000000000000001
+	FETCH3 = 32'sb00000000000000000000000000000010
+	FETCH4 = 32'sb00000000000000000000000000000011
+	DECODE = 32'sb00000000000000000000000000000100
+	MEMADR = 32'sb00000000000000000000000000000101
+	LBRD = 32'sb00000000000000000000000000000110
+	LBWR = 32'sb00000000000000000000000000000111
+	SBWR = 32'sb00000000000000000000000000001000
+	RTYPEEX = 32'sb00000000000000000000000000001001
+	RTYPEWR = 32'sb00000000000000000000000000001010
+	BEQEX = 32'sb00000000000000000000000000001011
+	JEX = 32'sb00000000000000000000000000001100
+	LB = 6'b100000
+	SB = 6'b101000
+	RTYPE = 32'sb00000000000000000000000000000000
+	BEQ = 32'sb00000000000000000000000000000100
+	J = 32'sb00000000000000000000000000000010
+Module <statelogic> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <statelogic>.
+    Related source file is "statelogic.v".
+    Found 6-bit register for signal <state>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <statelogic> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 6-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s50.nph' in environment D:\Xilinx91i.
+WARNING:Xst:2404 -  FFs/Latches <state<5:4>> (without init value) have a constant value of 0 in block <statelogic>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <statelogic> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block statelogic, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : statelogic.ngr
+Top Level Output File Name         : statelogic
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 24
+#      GND                         : 1
+#      LUT3                        : 3
+#      LUT3_L                      : 1
+#      LUT4                        : 14
+#      MUXF5                       : 5
+# FlipFlops/Latches                : 4
+#      FDR                         : 3
+#      FDRS                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 7
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                      10  out of    768     1%  
+ Number of Slice Flip Flops:             4  out of   1536     0%  
+ Number of 4 input LUTs:                18  out of   1536     1%  
+ Number of IOs:                         14
+ Number of bonded IOBs:                 14  out of    124    11%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.503ns (Maximum Frequency: 222.074MHz)
+   Minimum input arrival time before clock: 6.451ns
+   Maximum output required time after clock: 7.488ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.503ns (frequency: 222.074MHz)
+  Total number of paths / destination ports: 27 / 5
+-------------------------------------------------------------------------
+Delay:               4.503ns (Levels of Logic = 1)
+  Source:            state_2 (FF)
+  Destination:       state_1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: state_2 to state_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              7   0.720   1.405  state_2 (state_2)
+     LUT3:I0->O            1   0.551   0.801  nextstate<1>78 (nextstate<1>_map19)
+     FDRS:S                    1.026          state_1
+    ----------------------------------------
+    Total                      4.503ns (2.297ns logic, 2.206ns route)
+                                       (51.0% logic, 49.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 44 / 8
+-------------------------------------------------------------------------
+Offset:              6.451ns (Levels of Logic = 5)
+  Source:            op<1> (PAD)
+  Destination:       state_3 (FF)
+  Destination Clock: clk rising
+
+  Data Path: op<1> to state_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   0.821   1.405  op_1_IBUF (op_1_IBUF)
+     LUT4:I0->O            1   0.551   1.140  nextstate<3>87_SW0_SW0 (N227)
+     LUT4:I0->O            1   0.551   0.869  nextstate<3>87_SW0 (N222)
+     LUT4:I2->O            1   0.551   0.000  nextstate<3>87_G (N231)
+     MUXF5:I1->O           1   0.360   0.000  nextstate<3>87 (nextstate<3>)
+     FDR:D                     0.203          state_3
+    ----------------------------------------
+    Total                      6.451ns (3.037ns logic, 3.414ns route)
+                                       (47.1% logic, 52.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              7.488ns (Levels of Logic = 1)
+  Source:            state_1 (FF)
+  Destination:       state<1> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: state_1 to state<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             9   0.720   1.124  state_1 (state_1)
+     OBUF:I->O                 5.644          state_1_OBUF (state<1>)
+    ----------------------------------------
+    Total                      7.488ns (6.364ns logic, 1.124ns route)
+                                       (85.0% logic, 15.0% route)
+
+=========================================================================
+CPU : 3.42 / 3.59 s | Elapsed : 3.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 168952 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

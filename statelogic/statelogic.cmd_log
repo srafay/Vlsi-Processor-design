@@ -1,0 +1,9 @@
+xst -ise "C:/Xilinx91i/statelogic/statelogic.ise" -intstyle ise -ifn statelogic.xst -ofn statelogic.syr
+xst -ise "C:/Xilinx91i/statelogic/statelogic.ise" -intstyle ise -ifn statelogic.xst -ofn statelogic.syr
+xst -ise "C:/Xilinx91i/statelogic/statelogic.ise" -intstyle ise -ifn statelogic.xst -ofn statelogic.syr
+xst -ise "C:/Xilinx91i/statelogic/statelogic.ise" -intstyle ise -ifn statelogic.xst -ofn statelogic.syr
+xst -ise "C:/Xilinx91i/statelogic/statelogic.ise" -intstyle ise -ifn statelogic.xst -ofn statelogic.syr
+xst -ise "C:/Xilinx91i/statelogic/statelogic.ise" -intstyle ise -ifn statelogic.xst -ofn statelogic.syr
+xst -ise "C:/Xilinx91i/statelogic/statelogic.ise" -intstyle ise -ifn statelogic.xst -ofn statelogic.syr
+xst -ise "C:/Xilinx91i/statelogic/statelogic.ise" -intstyle ise -ifn statelogic.xst -ofn statelogic.syr
+xst -ise "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/statelogic/statelogic.ise" -intstyle ise -ifn statelogic.xst -ofn statelogic.syr

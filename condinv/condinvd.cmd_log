@@ -1,0 +1,3 @@
+xst -ise "C:/Xilinx91i/condinv/condinv.ise" -intstyle ise -ifn condinvd.xst -ofn condinvd.syr
+xst -ise "C:/Xilinx91i/condinv/condinv.ise" -intstyle ise -ifn condinvd.xst -ofn condinvd.syr
+xst -ise "C:/Xilinx91i/condinv/condinv.ise" -intstyle ise -ifn condinvd.xst -ofn condinvd.syr

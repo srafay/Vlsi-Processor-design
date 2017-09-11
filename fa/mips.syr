@@ -1,0 +1,210 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\mux2\mux2d.v" into library work
+Parsing module <mux2d>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\inverter\invertd.v" into library work
+Parsing module <invertd>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\zerodetect\zero.v" into library work
+Parsing module <zero>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\or\orop.v" into library work
+Parsing module <orop>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\mux4\mux4.v" into library work
+Parsing module <mux4>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\condinv\condinvd.v" into library work
+Parsing module <condinvd>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\andop\and.v" into library work
+Parsing module <andop>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\adder\adder.v" into library work
+Parsing module <ADDER>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\statelogic\statelogic.v" into library work
+Parsing module <statelogic>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\regfile\regd.v" into library work
+Parsing module <regd>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\outputlogic\outputlogic.v" into library work
+Parsing module <outputlogic>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\mux3\mux33.v" into library work
+Parsing module <mux33>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\flopenr\flopenrd.v" into library work
+Parsing module <flopenrd>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\flopen\flopen.v" into library work
+Parsing module <flopen>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\flop\flopd.v" into library work
+Parsing module <flopd>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\aludec\aludec.v" into library work
+Parsing module <aludec>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\alu1\alu.v" into library work
+Parsing module <alu>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\datapath\datav.v" into library work
+Parsing module <datav>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\ccontroller\controller.v" into library work
+Parsing module <controller>.
+Analyzing Verilog file "C:\Users\dell\Desktop\vlsiproject\mips\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <controller>.
+
+Elaborating module <statelogic>.
+
+Elaborating module <outputlogic>.
+
+Elaborating module <aludec>.
+
+Elaborating module <datav>.
+WARNING:HDLCompiler:872 - "C:\Users\dell\Desktop\vlsiproject\datapath\datav.v" Line 57: Using initial value of CONST_ONE since it is never assigned
+WARNING:HDLCompiler:413 - "C:\Users\dell\Desktop\vlsiproject\datapath\datav.v" Line 62: Result of 5-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\dell\Desktop\vlsiproject\datapath\datav.v" Line 63: Result of 5-bit expression is truncated to fit in 3-bit target.
+
+Elaborating module <mux2d>.
+WARNING:HDLCompiler:189 - "C:\Users\dell\Desktop\vlsiproject\datapath\datav.v" Line 64: Size mismatch in connection of port <d0>. Formal port size is 8-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "C:\Users\dell\Desktop\vlsiproject\datapath\datav.v" Line 65: Size mismatch in connection of port <d1>. Formal port size is 8-bit while actual signal size is 5-bit.
+
+Elaborating module <flopen>.
+
+Elaborating module <flopenrd>.
+
+Elaborating module <flopd>.
+
+Elaborating module <mux4>.
+
+Elaborating module <mux33>.
+
+Elaborating module <regd>.
+WARNING:HDLCompiler:413 - "C:\Users\dell\Desktop\vlsiproject\regfile\regd.v" Line 38: Result of 32-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <alu>.
+
+Elaborating module <orop>.
+
+Elaborating module <andop>.
+
+Elaborating module <condinvd>.
+
+Elaborating module <invertd>.
+
+Elaborating module <ADDER>.
+
+Elaborating module <zero>.
+ERROR:HDLCompiler:636 - "C:\Users\dell\Desktop\vlsiproject\mips\mips.v" Line 73: Net <pcen> is already driven by input port <pcen>.
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:636"
+Driver 0: pcen1_BUF_24/o driven by output signal pcen of instance OR Gate (pcen1_BUF_24).
+Module mips remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\Users\dell\Desktop\vlsiproject\mips\mips.v" Line 21: Empty module <mips> remains a black box.
+--> 
+
+Total memory usage is 235516 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

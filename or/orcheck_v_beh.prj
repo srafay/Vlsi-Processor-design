@@ -1,0 +1,3 @@
+verilog work "orop.v"
+verilog work "orcheck.v"
+verilog work "C:/Xilinx91i/verilog/src/glbl.v"

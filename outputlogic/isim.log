@@ -1,0 +1,49 @@
+ command line:
+   ./check_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  6566
+
+Sat Apr 01 05:59:57 2017
+
+WARNING:Simulator:17 - For instance /check_v/uut/, width 6 of formal port state
+   is not equal to width 4 of actual variable state. 
+Total Line Count : 123
+
+ Elaboration time : 0 sec.
+
+ Estimate current memory usage : 132.747 Meg. 
+
+ Total Signals          : 35
+ Total Nets             : 33
+ Total Signal Drivers   : 17
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 31
+ Total Scalar Nets and Variables : 532
+ntrace select -o on -n /check_v/branch 
+ntrace select -o on -n /check_v/regdst 
+ntrace select -o on -n /check_v/pcsrc 
+ntrace select -o on -n /check_v/regwrite 
+ntrace select -o on -n /check_v/memwrite 
+ntrace select -o on -n /check_v/memtoreg 
+ntrace select -o on -n /check_v/pcwrite 
+ntrace select -o on -n /check_v/aluop 
+ntrace select -o on -n /check_v/memread 
+ntrace select -o on -n /check_v/irwrite 
+ntrace select -o on -n /check_v/iord 
+ntrace select -o on -n /check_v/alusrca 
+ntrace select -o on -n /check_v/alusrcb 
+ntrace select -o on -n /check_v/state 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.0156 sec.
+
+ Estimate current memory usage : 141.136 Meg. 
+
+Sat Apr 01 06:00:57 2017
+

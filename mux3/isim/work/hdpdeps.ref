@@ -1,0 +1,9 @@
+V3 10
+FL $XILINX/mux3/check.v 2017/02/20.03:10:29 J.30
+MO work/check_v FL $XILINX/mux3/check.v MI mux33
+FL $XILINX/mux3/mux3.v 2017/02/20.03:03:43 J.30
+MO work/mux3 FL $XILINX/mux3/mux3.v
+FL $XILINX/mux3/mux33.v 2017/02/20.03:08:26 J.30
+MO work/mux33 FL $XILINX/mux3/mux33.v
+FL $XILINX/verilog/src/glbl.v 2006/12/01.15:44:50 J.30
+MO work/glbl FL $XILINX/verilog/src/glbl.v

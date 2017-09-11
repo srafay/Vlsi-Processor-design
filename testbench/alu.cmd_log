@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj testbench -o C:/Users/scsc/Desktop/progressReport/testbench/alu.tfi -lib work C:/Users/scsc/Desktop/progressReport/alu1//alu.v -module alu -template D:/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/scsc/Desktop/progressReport/alu1/alu.v -lang verilog -prj testbench -o alu.spl -module alu -template D:/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 alu.spl C:/Users/scsc/Desktop/progressReport/testbench/alu.sym 

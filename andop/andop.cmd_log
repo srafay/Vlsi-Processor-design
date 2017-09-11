@@ -1,0 +1,2 @@
+xst -ise "C:/Xilinx91i/andop/andop.ise" -intstyle ise -ifn andop.xst -ofn andop.syr
+xst -ise "C:/Xilinx91i/andop/andop.ise" -intstyle ise -ifn andop.xst -ofn andop.syr

@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx91i/mux3/mux3.ise" -intstyle ise -ifn mux33.xst -ofn mux33.syr

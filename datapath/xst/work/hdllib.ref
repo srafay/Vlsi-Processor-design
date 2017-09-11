@@ -1,0 +1,15 @@
+MO adder NULL ../adder/adder.v vlg54/adder.bin 1488802838
+MO flopd NULL ../flop/flopd.v vlg2D/flopd.bin 1491052834
+MO regd NULL ../regfile/regd.v vlg6E/regd.bin 1491052834
+MO orop NULL ../or/orop.v vlg70/orop.bin 1491052834
+MO mux2d NULL ../mux2/mux2d.v vlg54/mux2d.bin 1491052834
+MO mux4 NULL ../mux4/mux4.v vlg32/mux4.bin 1491052834
+MO flopenrd NULL ../flopenr/flopenrd.v vlg52/flopenrd.bin 1491052834
+MO invertd NULL ../inverter/invertd.v vlg28/invertd.bin 1491052834
+MO zero NULL ../zerodetect/zero.v vlg18/zero.bin 1491052834
+MO condinvd NULL ../condinv/condinvd.v vlg6D/condinvd.bin 1491052834
+MO andop NULL ../andop/and.v vlg66/andop.bin 1491052834
+MO datav NULL datav.v vlg30/datav.bin 1491052834
+MO flopen NULL ../flopen/flopen.v vlg54/flopen.bin 1491052834
+MO mux33 NULL ../mux3/mux33.v vlg28/mux33.bin 1491052834
+MO alu NULL ../alu1/alu.v vlg0A/alu.bin 1491052834

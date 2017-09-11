@@ -1,0 +1,7 @@
+V3 7
+FL $XILINX/flop/flopcheck.v 2017/02/10.01:33:02 J.30
+MO work/flopcheck_v FL $XILINX/flop/flopcheck.v MI flopd
+FL $XILINX/flop/flopd.v 2017/02/10.01:29:38 J.30
+MO work/flopd FL $XILINX/flop/flopd.v
+FL $XILINX/verilog/src/glbl.v 2006/12/01.15:44:50 J.30
+MO work/glbl FL $XILINX/verilog/src/glbl.v

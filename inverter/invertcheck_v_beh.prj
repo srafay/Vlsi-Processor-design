@@ -1,0 +1,3 @@
+verilog work "invertd.v"
+verilog work "invertcheck.v"
+verilog work "C:/Xilinx91i/verilog/src/glbl.v"

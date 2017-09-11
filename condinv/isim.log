@@ -1,0 +1,34 @@
+ command line:
+   ./condinvcheck_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1080
+
+Fri Feb 10 05:42:53 2017
+
+Total Line Count : 69
+
+ Elaboration time : 0.109375 sec.
+
+ Estimate current memory usage : 117.367 Meg. 
+
+ Total Signals          : 22
+ Total Nets             : 57
+ Total Signal Drivers   : 10
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 13
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 145
+ntrace select -o on -m / -l this 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.84375 sec.
+
+ Estimate current memory usage : 123.658 Meg. 
+
+Fri Feb 10 05:45:35 2017
+

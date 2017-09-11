@@ -1,0 +1,6 @@
+MO aludec NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/../aludec/aludec.v" vlg02/aludec.bin 1491039914
+MO outputlogic NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/../outputlogic/outputlogic.v" vlg43/outputlogic.bin 1491039914
+MO statelogic NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/../statelogic/statelogic.v" vlg3B/statelogic.bin 1491052290
+MO glbl NULL D:/Xilinx91i/verilog/src/glbl.v vlg2D/glbl.bin 1491039916
+MO controller NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/controller.v" vlg54/controller.bin 1491039915
+MO check_v NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/check.v" vlg33/check__v.bin 1491039915

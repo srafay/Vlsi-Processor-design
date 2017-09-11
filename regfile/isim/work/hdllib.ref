@@ -1,0 +1,5 @@
+MO regd NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/regfile/regd.v" vlg6E/regd.bin 1491062015
+MO regcheck_v NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/regfile/regcheck.v" vlg0D/regcheck__v.bin 1491062016
+MO checkv_v NULL C:/Xilinx91i/regfile/checkv.v vlg41/checkv__v.bin 1488716285
+MO glbl NULL D:/Xilinx91i/verilog/src/glbl.v vlg2D/glbl.bin 1491062017
+MO check_v NULL C:/Xilinx91i/regfile/check.v vlg33/check__v.bin 1487220786

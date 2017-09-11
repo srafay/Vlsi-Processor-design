@@ -1,0 +1,17 @@
+D:/Xilinx91i/verilog/src/glbl.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/zerodetect/zero.v
+C:/Xilinx91i/adder/adder.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/inverter/invertd.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/condinv/condinvd.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/andop/and.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/or/orop.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/alu1/alu.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/regfile/regd.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mux3/mux33.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mux4/mux4.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/flop/flopd.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/flopenr/flopenrd.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/flopen/flopen.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mux2/mux2d.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/datav.v
+C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/datacheck4.v

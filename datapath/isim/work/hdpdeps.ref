@@ -1,0 +1,81 @@
+V3 76
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../alu1/alu.v" 2017/03/09.05:41:12 J.30
+MO work/alu \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../alu1/alu.v" \
+      MI adder MI andop MI condinvd MI mux4 MI orop MI zero
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../andop/and.v" 2017/02/10.01:08:16 J.30
+MO work/andop \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../andop/and.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../condinv/condinvd.v" 2017/02/15.18:18:48 J.30
+MO work/condinvd \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../condinv/condinvd.v" \
+      MI invertd MI mux2d
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../flop/flopd.v" 2017/02/10.02:29:40 J.30
+MO work/flopd \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../flop/flopd.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../flopen/flopen.v" 2017/02/24.06:27:42 J.30
+MO work/flopen \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../flopen/flopen.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../flopenr/flopenrd.v" 2017/02/14.06:24:58 J.30
+MO work/flopenrd \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../flopenr/flopenrd.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../inverter/invertd.v" 2017/02/10.06:19:42 J.30
+MO work/invertd \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../inverter/invertd.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../mux2/mux2d.v" 2017/02/10.05:53:46 J.30
+MO work/mux2d \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../mux2/mux2d.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../mux3/mux33.v" 2017/02/20.04:08:28 J.30
+MO work/mux33 \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../mux3/mux33.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../mux4/mux4.v" 2017/02/10.01:45:42 J.30
+MO work/mux4 \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../mux4/mux4.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../or/orop.v" 2017/02/10.01:20:02 J.30
+MO work/orop \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../or/orop.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../regfile/regd.v" 2017/03/08.20:04:56 J.30
+MO work/regd \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../regfile/regd.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../zerodetect/zero.v" 2017/02/14.06:44:38 J.30
+MO work/zero \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/../zerodetect/zero.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/datacheck4.v" 2017/03/06.05:29:46 J.30
+MO work/datacheck4_v \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/datacheck4.v" \
+      MI datav
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/datav.v" 2017/03/09.03:43:02 J.30
+MO work/datav \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/datapath/datav.v" \
+      MI alu MI flopd MI flopen MI flopenrd MI mux2d MI mux33 MI mux4 MI regd
+FL $XILINX/datapath/../adder/adder.v 2017/02/10.01:00:19 J.30
+MO work/adder FL $XILINX/datapath/../adder/adder.v
+FL $XILINX/datapath/../alu1/alu.v 2017/03/06.04:04:00 J.30
+FL $XILINX/datapath/../andop/and.v 2017/02/10.00:08:14 J.30
+FL $XILINX/datapath/../condinv/condinvd.v 2017/02/15.17:18:47 J.30
+FL $XILINX/datapath/../flop/flopd.v 2017/02/10.01:29:38 J.30
+FL $XILINX/datapath/../flopen/flopen.v 2017/02/24.05:27:40 J.30
+FL $XILINX/datapath/../flopenr/flopenrd.v 2017/02/14.05:24:56 J.30
+FL $XILINX/datapath/../inverter/invertd.v 2017/02/10.05:19:41 J.30
+FL $XILINX/datapath/../mux2/mux2d.v 2017/02/10.04:53:45 J.30
+FL $XILINX/datapath/../mux3/mux33.v 2017/02/20.03:08:26 J.30
+FL $XILINX/datapath/../mux4/mux4.v 2017/02/10.00:45:40 J.30
+FL $XILINX/datapath/../or/orop.v 2017/02/10.00:20:00 J.30
+FL $XILINX/datapath/../regfile/regd.v 2017/03/05.07:06:16 J.30
+FL $XILINX/datapath/../zerodetect/zero.v 2017/02/14.05:44:37 J.30
+FL $XILINX/datapath/checck.v 2017/03/01.20:56:40 J.30
+MO work/checck_v FL $XILINX/datapath/checck.v MI datav
+FL $XILINX/datapath/checkdata.v 2017/03/06.03:11:17 J.30
+MO work/checkdata_v FL $XILINX/datapath/checkdata.v MI datav
+FL $XILINX/datapath/checkv.v 2017/03/05.05:16:30 J.30
+MO work/checkv_v FL $XILINX/datapath/checkv.v MI datav
+FL $XILINX/datapath/datacheck.v 2017/03/06.03:21:45 J.30
+MO work/datacheck_v FL $XILINX/datapath/datacheck.v MI datav
+FL $XILINX/datapath/datacheck2.v 2017/03/06.03:43:16 J.30
+MO work/datacheck2_v FL $XILINX/datapath/datacheck2.v MI datav
+FL $XILINX/datapath/datacheck3.v 2017/03/06.03:49:13 J.30
+MO work/datacheck3_v FL $XILINX/datapath/datacheck3.v MI datav
+FL $XILINX/datapath/datacheck4.v 2017/03/06.04:29:44 J.30
+FL $XILINX/datapath/datav.v 2017/03/06.04:20:35 J.30
+FL $XILINX/verilog/src/glbl.v 2006/12/01.16:44:50 J.30
+MO work/glbl FL $XILINX/verilog/src/glbl.v

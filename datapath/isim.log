@@ -1,0 +1,65 @@
+ command line:
+   ./datacheck4_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  7026
+
+Sat Apr 01 06:24:26 2017
+
+WARNING:Simulator:16 - For instance /datacheck4_v/uut/regmux/, width 8 of formal
+   port d0 is not equal to width 5 of actual.
+WARNING:Simulator:16 - For instance /datacheck4_v/uut/regmux/, width 8 of formal
+   port d1 is not equal to width 5 of actual.
+Total Line Count : 440
+
+ Elaboration time : 0.0312 sec.
+
+ Estimate current memory usage : 134.918 Meg. 
+
+ Total Signals          : 203
+ Total Nets             : 477
+ Total Signal Drivers   : 74
+ Total Blocks           : 30
+ Total Primitive Blocks : 26
+ Total Processes        : 84
+ Total Traceable Variables  : 43
+ Total Scalar Nets and Variables : 767
+ntrace select -o on -n /datacheck4_v/read2 
+ntrace select -o on -n /datacheck4_v/alucheck 
+ntrace select -o on -n /datacheck4_v/src1 
+ntrace select -o on -n /datacheck4_v/src2 
+ntrace select -o on -n /datacheck4_v/branch 
+ntrace select -o on -n /datacheck4_v/nextpcvalue 
+ntrace select -o on -n /datacheck4_v/zero 
+ntrace select -o on -n /datacheck4_v/RgDst 
+ntrace select -o on -n /datacheck4_v/adr 
+ntrace select -o on -n /datacheck4_v/instr 
+ntrace select -o on -n /datacheck4_v/pcvalue 
+ntrace select -o on -n /datacheck4_v/writedata 
+ntrace select -o on -n /datacheck4_v/read1 
+ntrace select -o on -n /datacheck4_v/regdst 
+ntrace select -o on -n /datacheck4_v/clk 
+ntrace select -o on -n /datacheck4_v/pcsrc 
+ntrace select -o on -n /datacheck4_v/regwrite 
+ntrace select -o on -n /datacheck4_v/pcen 
+ntrace select -o on -n /datacheck4_v/memtoreg 
+ntrace select -o on -n /datacheck4_v/memdata 
+ntrace select -o on -n /datacheck4_v/reset 
+ntrace select -o on -n /datacheck4_v/a1 
+ntrace select -o on -n /datacheck4_v/b1 
+ntrace select -o on -n /datacheck4_v/irwrite 
+ntrace select -o on -n /datacheck4_v/iord 
+ntrace select -o on -n /datacheck4_v/alusrca 
+ntrace select -o on -n /datacheck4_v/alusrcb 
+ntrace select -o on -n /datacheck4_v/alucontrol 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.0312 sec.
+
+ Estimate current memory usage : 141.21 Meg. 
+
+Sat Apr 01 06:35:02 2017
+

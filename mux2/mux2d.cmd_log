@@ -1,0 +1,2 @@
+xst -ise "C:/Xilinx91i/mux2/mux2.ise" -intstyle ise -ifn mux2d.xst -ofn mux2d.syr
+xst -ise "C:/Xilinx91i/mux2/mux2.ise" -intstyle ise -ifn mux2d.xst -ofn mux2d.syr

@@ -1,0 +1,5 @@
+xst -ise "C:/Xilinx91i/aludec/aludec.ise" -intstyle ise -ifn aludec.xst -ofn aludec.syr
+xst -ise "C:/Xilinx91i/aludec/aludec.ise" -intstyle ise -ifn aludec.xst -ofn aludec.syr
+xst -ise "C:/Xilinx91i/aludec/aludec.ise" -intstyle ise -ifn aludec.xst -ofn aludec.syr
+xst -ise "C:/Xilinx91i/aludec/aludec.ise" -intstyle ise -ifn aludec.xst -ofn aludec.syr
+xst -ise "C:/Xilinx91i/aludec/aludec.ise" -intstyle ise -ifn aludec.xst -ofn aludec.syr

@@ -1,0 +1,7 @@
+V3 7
+FL $XILINX/mux2/mux2check.v 2017/02/10.04:57:09 J.30
+MO work/mux2check_v FL $XILINX/mux2/mux2check.v MI mux2d
+FL $XILINX/mux2/mux2d.v 2017/02/10.04:53:45 J.30
+MO work/mux2d FL $XILINX/mux2/mux2d.v
+FL $XILINX/verilog/src/glbl.v 2006/12/01.15:44:50 J.30
+MO work/glbl FL $XILINX/verilog/src/glbl.v

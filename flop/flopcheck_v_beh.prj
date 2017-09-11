@@ -1,0 +1,3 @@
+verilog work "flopd.v"
+verilog work "flopcheck.v"
+verilog work "C:/Xilinx91i/verilog/src/glbl.v"

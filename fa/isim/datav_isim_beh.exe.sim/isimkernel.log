@@ -1,0 +1,28 @@
+Command line:
+   datav_isim_beh.exe
+     -simmode  gui
+     -simrunnum  2
+     -socket  1099
+
+Wed Sep 06 14:29:24 2017
+
+
+ Elaboration Time: 0.078001 sec
+
+ Current Memory Usage: 505.623 Meg
+
+ Total Signals          : 187
+ Total Nets             : 482
+ Total Signal Drivers   : 61
+ Total Blocks           : 29
+ Total Primitive Blocks : 26
+ Total Processes        : 76
+ Total Traceable Variables  : 37
+ Total Scalar Nets and Variables : 794
+
+ Total Simulation Time: 0.171602 sec
+
+ Current Memory Usage: 505.623 Meg
+
+Wed Sep 06 14:39:03 2017
+

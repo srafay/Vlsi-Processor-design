@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx91i/zerodetect/zerodetect.ise" -intstyle ise -ifn zero.xst -ofn zero.syr

@@ -1,0 +1,6 @@
+xst -ise "C:/Xilinx91i/exmemory/exmemory.ise" -intstyle ise -ifn exmemory.xst -ofn exmemory.syr
+xst -ise "C:/Xilinx91i/exmemory/exmemory.ise" -intstyle ise -ifn exmemory.xst -ofn exmemory.syr
+xst -ise "C:/Xilinx91i/exmemory/exmemory.ise" -intstyle ise -ifn exmemory.xst -ofn exmemory.syr
+xst -ise "C:/Xilinx91i/exmemory/exmemory.ise" -intstyle ise -ifn exmemory.xst -ofn exmemory.syr
+xst -ise "C:/Xilinx91i/exmemory/exmemory.ise" -intstyle ise -ifn exmemory.xst -ofn exmemory.syr
+xst -ise "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/exmemory/exmemory.ise" -intstyle ise -ifn exmemory.xst -ofn exmemory.syr

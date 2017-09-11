@@ -1,0 +1,35 @@
+ command line:
+   ./invertcheck_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1076
+
+Wed Feb 15 17:08:32 2017
+
+Total Line Count : 49
+
+ Elaboration time : 0.09375 sec.
+
+ Estimate current memory usage : 117.363 Meg. 
+
+ Total Signals          : 12
+ Total Nets             : 32
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 119
+ntrace select -o on -n /invertcheck_v/y 
+ntrace select -o on -n /invertcheck_v/a 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.25 sec.
+
+ Estimate current memory usage : 123.654 Meg. 
+
+Wed Feb 15 17:08:54 2017
+

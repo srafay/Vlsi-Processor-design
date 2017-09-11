@@ -1,0 +1,9 @@
+MO adder NULL ../adder/adder.v vlg54/adder.bin 1487218239
+MO mux2d NULL ../mux2/mux2d.v vlg54/mux2d.bin 1487218238
+MO orop NULL ../or/orop.v vlg70/orop.bin 1487218238
+MO mux4 NULL ../mux4/mux4.v vlg32/mux4.bin 1487218238
+MO invertd NULL ../inverter/invertd.v vlg28/invertd.bin 1487218238
+MO zero NULL ../zerodetect/zero.v vlg18/zero.bin 1487218238
+MO condinvd NULL ../condinv/condinvd.v vlg6D/condinvd.bin 1487218239
+MO andop NULL ../andop/and.v vlg66/andop.bin 1487218239
+MO alu NULL alu.v vlg0A/alu.bin 1487218239

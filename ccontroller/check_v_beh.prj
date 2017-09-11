@@ -1,0 +1,6 @@
+verilog work "../statelogic/statelogic.v"
+verilog work "../outputlogic/outputlogic.v"
+verilog work "../aludec/aludec.v"
+verilog work "controller.v"
+verilog work "check.v"
+verilog work "D:/Xilinx91i/verilog/src/glbl.v"

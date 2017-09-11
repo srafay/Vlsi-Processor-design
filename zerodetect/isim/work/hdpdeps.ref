@@ -1,0 +1,7 @@
+V3 7
+FL $XILINX/verilog/src/glbl.v 2006/12/01.15:44:50 J.30
+MO work/glbl FL $XILINX/verilog/src/glbl.v
+FL $XILINX/zerodetect/check.v 2017/02/14.05:48:05 J.30
+MO work/check_v FL $XILINX/zerodetect/check.v MI zero
+FL $XILINX/zerodetect/zero.v 2017/02/14.05:44:37 J.30
+MO work/zero FL $XILINX/zerodetect/zero.v

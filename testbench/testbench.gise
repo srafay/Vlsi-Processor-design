@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="testbench.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="alu.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="alu.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="alu.tfi"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="alu_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="alu_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="isim.hdlsourcefiles"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XWV" xil_pn:name="isimwavedata.xwv"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="testbench.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="testbench.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="testbench.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="testbench.ngr"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="testbench.ntrc_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="testbench.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="testbench.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="testbench.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="testbench_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="testbench_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testcheck7_v_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1504804454" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1504804454">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504804858" xil_pn:in_ck="951126742978533666" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1504804858">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../adder/adder.v"/>
+      <outfile xil_pn:name="../alu1/alu.v"/>
+      <outfile xil_pn:name="../aludec/aludec.v"/>
+      <outfile xil_pn:name="../andop/and.v"/>
+      <outfile xil_pn:name="../ccontroller/controller.v"/>
+      <outfile xil_pn:name="../condinv/condinvd.v"/>
+      <outfile xil_pn:name="../datapath/datav.v"/>
+      <outfile xil_pn:name="../exmemory/exmemory.v"/>
+      <outfile xil_pn:name="../flop/flopd.v"/>
+      <outfile xil_pn:name="../flopen/flopen.v"/>
+      <outfile xil_pn:name="../flopenr/flopenrd.v"/>
+      <outfile xil_pn:name="../inverter/invertd.v"/>
+      <outfile xil_pn:name="../mips/mips.v"/>
+      <outfile xil_pn:name="../mux2/mux2d.v"/>
+      <outfile xil_pn:name="../mux3/mux33.v"/>
+      <outfile xil_pn:name="../mux4/mux4.v"/>
+      <outfile xil_pn:name="../or/orop.v"/>
+      <outfile xil_pn:name="../outputlogic/outputlogic.v"/>
+      <outfile xil_pn:name="../regfile/regd.v"/>
+      <outfile xil_pn:name="../statelogic/statelogic.v"/>
+      <outfile xil_pn:name="../zerodetect/zero.v"/>
+      <outfile xil_pn:name="testbench.v"/>
+      <outfile xil_pn:name="testcheck5.v"/>
+      <outfile xil_pn:name="testcheck6.v"/>
+      <outfile xil_pn:name="testcheck7.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805257" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8249699053764744679" xil_pn:start_ts="1504805257">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805257" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1054483010794535889" xil_pn:start_ts="1504805257">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504804454" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3367761337172312894" xil_pn:start_ts="1504804454">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504804858" xil_pn:in_ck="951126742978533666" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1504804858">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../adder/adder.v"/>
+      <outfile xil_pn:name="../alu1/alu.v"/>
+      <outfile xil_pn:name="../aludec/aludec.v"/>
+      <outfile xil_pn:name="../andop/and.v"/>
+      <outfile xil_pn:name="../ccontroller/controller.v"/>
+      <outfile xil_pn:name="../condinv/condinvd.v"/>
+      <outfile xil_pn:name="../datapath/datav.v"/>
+      <outfile xil_pn:name="../exmemory/exmemory.v"/>
+      <outfile xil_pn:name="../flop/flopd.v"/>
+      <outfile xil_pn:name="../flopen/flopen.v"/>
+      <outfile xil_pn:name="../flopenr/flopenrd.v"/>
+      <outfile xil_pn:name="../inverter/invertd.v"/>
+      <outfile xil_pn:name="../mips/mips.v"/>
+      <outfile xil_pn:name="../mux2/mux2d.v"/>
+      <outfile xil_pn:name="../mux3/mux33.v"/>
+      <outfile xil_pn:name="../mux4/mux4.v"/>
+      <outfile xil_pn:name="../or/orop.v"/>
+      <outfile xil_pn:name="../outputlogic/outputlogic.v"/>
+      <outfile xil_pn:name="../regfile/regd.v"/>
+      <outfile xil_pn:name="../statelogic/statelogic.v"/>
+      <outfile xil_pn:name="../zerodetect/zero.v"/>
+      <outfile xil_pn:name="testbench.v"/>
+      <outfile xil_pn:name="testcheck5.v"/>
+      <outfile xil_pn:name="testcheck6.v"/>
+      <outfile xil_pn:name="testcheck7.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805262" xil_pn:in_ck="951126742978533666" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8415356125349641490" xil_pn:start_ts="1504805257">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="alu_beh.prj"/>
+      <outfile xil_pn:name="alu_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805263" xil_pn:in_ck="3502349215759296170" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7327784219778485457" xil_pn:start_ts="1504805262">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="alu_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.hdlsourcefiles"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="isimwavedata.xwv"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805333" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1504805333">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805333" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8556459012468524271" xil_pn:start_ts="1504805333">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805333" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3367761337172312894" xil_pn:start_ts="1504805333">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805333" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1504805333">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805333" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1854889385420917559" xil_pn:start_ts="1504805333">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805333" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="4779560239316253549" xil_pn:start_ts="1504805333">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805333" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8671502487940142536" xil_pn:start_ts="1504805333">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1504805367" xil_pn:in_ck="3915961576694021658" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="3946684209621473266" xil_pn:start_ts="1504805333">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="testbench.lso"/>
+      <outfile xil_pn:name="testbench.ngc"/>
+      <outfile xil_pn:name="testbench.ngr"/>
+      <outfile xil_pn:name="testbench.ntrc_log"/>
+      <outfile xil_pn:name="testbench.prj"/>
+      <outfile xil_pn:name="testbench.stx"/>
+      <outfile xil_pn:name="testbench.syr"/>
+      <outfile xil_pn:name="testbench.xst"/>
+      <outfile xil_pn:name="testbench_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

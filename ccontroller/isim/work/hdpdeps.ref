@@ -1,0 +1,25 @@
+V3 21
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/../aludec/aludec.v" 2017/02/24.03:20:22 J.30
+MO work/aludec \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/../aludec/aludec.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/../outputlogic/outputlogic.v" 2017/03/03.07:05:12 J.30
+MO work/outputlogic \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/../outputlogic/outputlogic.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/../statelogic/statelogic.v" 2017/04/01.05:11:29 J.30
+MO work/statelogic \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/../statelogic/statelogic.v"
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/check.v" 2017/02/24.04:03:04 J.30
+MO work/check_v \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/check.v" \
+      MI controller
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/controller.v" 2017/04/01.02:39:52 J.30
+MO work/controller \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/controller.v" \
+      MI aludec MI outputlogic MI statelogic
+FL $XILINX/ccontroller/../aludec/aludec.v 2017/02/24.02:20:20 J.30
+FL $XILINX/ccontroller/../outputlogic/outputlogic.v 2017/02/23.21:34:53 J.30
+FL $XILINX/ccontroller/../statelogic/statelogic.v 2017/02/24.02:56:13 J.30
+FL $XILINX/ccontroller/check.v 2017/02/24.03:03:02 J.30
+FL $XILINX/ccontroller/controller.v 2017/02/24.02:51:36 J.30
+FL $XILINX/verilog/src/glbl.v 2006/12/01.16:44:50 J.30
+MO work/glbl FL $XILINX/verilog/src/glbl.v

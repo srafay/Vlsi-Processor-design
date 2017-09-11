@@ -1,0 +1,11 @@
+[Inputs]
+=a[7:0]=
+=b[7:0]=
+=alucontrol[2:0]=
+[Outputs]
+zerocheck
+=result[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel alu
+

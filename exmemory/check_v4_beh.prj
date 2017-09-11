@@ -1,0 +1,3 @@
+verilog work "exmemory.v"
+verilog work "check.v"
+verilog work "D:/Xilinx91i/verilog/src/glbl.v"

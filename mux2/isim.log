@@ -1,0 +1,34 @@
+ command line:
+   ./mux2check_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1048
+
+Fri Feb 10 04:57:33 2017
+
+Total Line Count : 57
+
+ Elaboration time : 0.078125 sec.
+
+ Estimate current memory usage : 117.363 Meg. 
+
+ Total Signals          : 14
+ Total Nets             : 41
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 137
+ntrace select -o on -m / -l this 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.25 sec.
+
+ Estimate current memory usage : 123.654 Meg. 
+
+Fri Feb 10 05:02:18 2017
+

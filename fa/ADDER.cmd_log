@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/dell/Desktop/vlsiproject/fa/ADDER.xst" -ofn "C:/Users/dell/Desktop/vlsiproject/fa/ADDER.syr" 

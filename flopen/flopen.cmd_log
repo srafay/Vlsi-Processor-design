@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx91i/flopen/flopen.ise" -intstyle ise -ifn flopen.xst -ofn flopen.syr

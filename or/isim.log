@@ -1,0 +1,36 @@
+ command line:
+   ./orcheck_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1132
+
+Sat Feb 18 07:06:27 2017
+
+Total Line Count : 53
+
+ Elaboration time : 0.015625 sec.
+
+ Estimate current memory usage : 117.363 Meg. 
+
+ Total Signals          : 13
+ Total Nets             : 40
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 135
+ntrace select -o on -n /orcheck_v/y 
+ntrace select -o on -n /orcheck_v/a 
+ntrace select -o on -n /orcheck_v/b 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.140625 sec.
+
+ Estimate current memory usage : 121.557 Meg. 
+
+Sat Feb 18 07:07:22 2017
+

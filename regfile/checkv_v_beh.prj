@@ -1,0 +1,3 @@
+verilog work "regd.v"
+verilog work "checkv.v"
+verilog work "C:/Xilinx91i/verilog/src/glbl.v"

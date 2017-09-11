@@ -1,0 +1,23 @@
+V3 31
+FL $XILINX/alu1/../adder/adder.v 2017/02/10.01:00:19 J.30
+MO work/adder FL $XILINX/alu1/../adder/adder.v
+FL $XILINX/alu1/../andop/and.v 2017/02/10.00:08:14 J.30
+MO work/andop FL $XILINX/alu1/../andop/and.v
+FL $XILINX/alu1/../condinv/condinvd.v 2017/02/15.17:18:47 J.30
+MO work/condinvd FL $XILINX/alu1/../condinv/condinvd.v MI invertd MI mux2d
+FL $XILINX/alu1/../inverter/invertd.v 2017/02/10.05:19:41 J.30
+MO work/invertd FL $XILINX/alu1/../inverter/invertd.v
+FL $XILINX/alu1/../mux2/mux2d.v 2017/02/10.04:53:45 J.30
+MO work/mux2d FL $XILINX/alu1/../mux2/mux2d.v
+FL $XILINX/alu1/../mux4/mux4.v 2017/02/10.00:45:40 J.30
+MO work/mux4 FL $XILINX/alu1/../mux4/mux4.v
+FL $XILINX/alu1/../or/orop.v 2017/02/10.00:20:00 J.30
+MO work/orop FL $XILINX/alu1/../or/orop.v
+FL $XILINX/alu1/../zerodetect/zero.v 2017/02/14.05:44:37 J.30
+MO work/zero FL $XILINX/alu1/../zerodetect/zero.v
+FL $XILINX/alu1/alu.v 2017/03/06.04:04:00 J.30
+MO work/alu FL $XILINX/alu1/alu.v MI adder MI andop MI condinvd MI mux4 MI orop MI zero
+FL $XILINX/alu1/check.v 2017/03/06.04:05:46 J.30
+MO work/check_v FL $XILINX/alu1/check.v MI alu
+FL $XILINX/verilog/src/glbl.v 2006/12/01.15:44:50 J.30
+MO work/glbl FL $XILINX/verilog/src/glbl.v

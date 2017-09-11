@@ -1,0 +1,3 @@
+verilog isim_temp "orop.v"
+verilog isim_temp "orcheck.v"
+verilog isim_temp "C:/Xilinx91i/verilog/src/glbl.v"

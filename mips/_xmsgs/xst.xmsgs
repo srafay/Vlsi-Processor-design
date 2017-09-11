@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="unknown" ><arg fmt="%s" index="1">&quot;../datapath/datav.v&quot; line 64 </arg>Connection to input port &apos;<arg fmt="%s" index="2">d0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="unknown" ><arg fmt="%s" index="1">&quot;../datapath/datav.v&quot; line 65 </arg>Connection to input port &apos;<arg fmt="%s" index="2">d1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ra2</arg>&gt; is never used.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">wa</arg>&gt; is never used.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">RAM</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="0" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="1872" delta="unknown" >Variable &lt;<arg fmt="%s" index="1">i</arg>&gt; is used but never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">CONST_ONE</arg>&gt; is used but never assigned. Tied to value <arg fmt="%s" index="2">00000001</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">regDt</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">branchcheckand</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">CONST_ZERO</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">instr1</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="unknown" > FFs/Latches &lt;<arg fmt="%s" index="1">state</arg>&lt;<arg fmt="%d" index="2">5</arg>:<arg fmt="%d" index="3">4</arg>&gt;&gt; (without init value) have a constant value of 0 in block &lt;<arg fmt="%s" index="4">statelogic</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">regmux</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">dp</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">datareg/t1_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">datav</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">datareg/t1_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">datav</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">datareg/t1_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">datav</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">datareg/t1_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">datav</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">datareg/t1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">datav</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">datareg/t1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">datav</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">datareg/t1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">datav</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">datareg/t1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">datav</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="unknown" > (*) More than 100% of Device resources are used
+</msg>
+
+</messages>
+

@@ -1,0 +1,11 @@
+MO adder NULL C:/Xilinx91i/alu1/../adder/adder.v vlg54/adder.bin 1487211630
+MO orop NULL C:/Xilinx91i/alu1/../or/orop.v vlg70/orop.bin 1487211629
+MO mux2d NULL C:/Xilinx91i/alu1/../mux2/mux2d.v vlg54/mux2d.bin 1487211629
+MO mux4 NULL C:/Xilinx91i/alu1/../mux4/mux4.v vlg32/mux4.bin 1487211630
+MO invertd NULL C:/Xilinx91i/alu1/../inverter/invertd.v vlg28/invertd.bin 1487211629
+MO zero NULL C:/Xilinx91i/alu1/../zerodetect/zero.v vlg18/zero.bin 1487211629
+MO condinvd NULL C:/Xilinx91i/alu1/../condinv/condinvd.v vlg6D/condinvd.bin 1487211630
+MO andop NULL C:/Xilinx91i/alu1/../andop/and.v vlg66/andop.bin 1487211630
+MO glbl NULL C:/Xilinx91i/verilog/src/glbl.v vlg2D/glbl.bin 1487211630
+MO check_v NULL C:/Xilinx91i/alu1/check.v vlg33/check__v.bin 1487211630
+MO alu NULL C:/Xilinx91i/alu1/alu.v vlg0A/alu.bin 1487211630

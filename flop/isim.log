@@ -1,0 +1,36 @@
+ command line:
+   ./flopcheck_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1097
+
+Fri Feb 10 01:33:16 2017
+
+Total Line Count : 55
+
+ Elaboration time : 0.09375 sec.
+
+ Estimate current memory usage : 117.367 Meg. 
+
+ Total Signals          : 12
+ Total Nets             : 25
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 121
+ntrace select -o on -n /flopcheck_v/output_q 
+ntrace select -o on -n /flopcheck_v/clk 
+ntrace select -o on -n /flopcheck_v/input_d 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.25 sec.
+
+ Estimate current memory usage : 123.658 Meg. 
+
+Fri Feb 10 01:43:03 2017
+

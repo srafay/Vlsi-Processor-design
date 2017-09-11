@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx91i/or/or.ise" -intstyle ise -ifn orop.xst -ofn orop.syr

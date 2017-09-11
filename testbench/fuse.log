@@ -1,0 +1,33 @@
+Running: D:\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/scsc/Desktop/progressReport/testbench/alu_isim_beh.exe -prj C:/Users/scsc/Desktop/progressReport/testbench/alu_beh.prj work.alu work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/scsc/Desktop/progressReport/testbench/../mux2/mux2d.v" into library work
+Analyzing Verilog file "C:/Users/scsc/Desktop/progressReport/testbench/../inverter/invertd.v" into library work
+Analyzing Verilog file "C:/Users/scsc/Desktop/progressReport/testbench/../zerodetect/zero.v" into library work
+Analyzing Verilog file "C:/Users/scsc/Desktop/progressReport/testbench/../or/orop.v" into library work
+Analyzing Verilog file "C:/Users/scsc/Desktop/progressReport/testbench/../mux4/mux4.v" into library work
+Analyzing Verilog file "C:/Users/scsc/Desktop/progressReport/testbench/../condinv/condinvd.v" into library work
+Analyzing Verilog file "C:/Users/scsc/Desktop/progressReport/testbench/../andop/and.v" into library work
+Analyzing Verilog file "C:/Users/scsc/Desktop/progressReport/testbench/../adder/adder.v" into library work
+Analyzing Verilog file "C:/Users/scsc/Desktop/progressReport/testbench/../alu1/alu.v" into library work
+Analyzing Verilog file "D:/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module orop
+Compiling module andop
+Compiling module invertd
+Compiling module mux2d
+Compiling module condinvd
+Compiling module ADDER
+Compiling module mux4
+Compiling module zero
+Compiling module alu
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 10 Verilog Units
+Built simulation executable C:/Users/scsc/Desktop/progressReport/testbench/alu_isim_beh.exe
+Fuse Memory Usage: 27192 KB
+Fuse CPU Usage: 451 ms

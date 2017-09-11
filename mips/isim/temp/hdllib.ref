@@ -1,0 +1,21 @@
+MO flopd NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../flop/flopd.v" vlg2D/flopd.bin 1490890944
+MO regd NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../regfile/regd.v" vlg6E/regd.bin 1490890944
+MO orop NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../or/orop.v" vlg70/orop.bin 1490890944
+MO mux2d NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../mux2/mux2d.v" vlg54/mux2d.bin 1490890944
+MO mux4 NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../mux4/mux4.v" vlg32/mux4.bin 1490890944
+MO mipscheck_v NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/mipscheck.v" vlg4C/mipscheck__v.bin 1490890944
+MO aludec NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../aludec/aludec.v" vlg02/aludec.bin 1490890944
+MO outputlogic NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../outputlogic/outputlogic.v" vlg43/outputlogic.bin 1490890944
+MO flopenrd NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../flopenr/flopenrd.v" vlg52/flopenrd.bin 1490890944
+MO invertd NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../inverter/invertd.v" vlg28/invertd.bin 1490890944
+MO statelogic NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../statelogic/statelogic.v" vlg3B/statelogic.bin 1490890944
+MO zero NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../zerodetect/zero.v" vlg18/zero.bin 1490890944
+MO condinvd NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../condinv/condinvd.v" vlg6D/condinvd.bin 1490890944
+MO mips NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/mips.v" vlg1D/mips.bin 1490890944
+MO andop NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../andop/and.v" vlg66/andop.bin 1490890944
+MO glbl NULL D:/Xilinx91i/verilog/src/glbl.v vlg2D/glbl.bin 1490890944
+MO datav NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../datapath/datav.v" vlg30/datav.bin 1490890944
+MO controller NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../ccontroller/controller.v" vlg54/controller.bin 1490890944
+MO flopen NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../flopen/flopen.v" vlg54/flopen.bin 1490890944
+MO mux33 NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../mux3/mux33.v" vlg28/mux33.bin 1490890944
+MO alu NULL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/mips/../alu1/alu.v" vlg0A/alu.bin 1490890944

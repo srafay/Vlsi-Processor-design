@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/dell/Desktop/vlsiproject/fa/statelogic.xst" -ofn "C:/Users/dell/Desktop/vlsiproject/fa/statelogic.syr" 
+xst -intstyle ise -ifn "C:/Users/dell/Desktop/vlsiproject/fa/statelogic.xst" -ofn "C:/Users/dell/Desktop/vlsiproject/fa/statelogic.syr" 

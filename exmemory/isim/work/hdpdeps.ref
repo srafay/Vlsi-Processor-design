@@ -1,0 +1,13 @@
+V3 10
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/exmemory/check.v" 2017/03/21.00:05:52 J.30
+MO work/check_v4 \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/exmemory/check.v" \
+      MI exmemory
+FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/exmemory/exmemory.v" 2017/03/08.04:56:34 J.30
+MO work/exmemory \
+      FL "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/exmemory/exmemory.v"
+FL $XILINX/exmemory/check.v 2017/03/06.22:37:12 J.30
+MO work/check_v FL $XILINX/exmemory/check.v MI exmemory
+FL $XILINX/exmemory/exmemory.v 2017/03/06.22:40:21 J.30
+FL $XILINX/verilog/src/glbl.v 2006/12/01.16:44:50 J.30
+MO work/glbl FL $XILINX/verilog/src/glbl.v

@@ -1,0 +1,3 @@
+xst -ise "C:/Xilinx91i/flop/flop.ise" -intstyle ise -ifn flopd.xst -ofn flopd.syr
+xst -ise "C:/Xilinx91i/flop/flop.ise" -intstyle ise -ifn flopd.xst -ofn flopd.syr
+xst -ise "C:/Xilinx91i/flop/flop.ise" -intstyle ise -ifn flopd.xst -ofn flopd.syr

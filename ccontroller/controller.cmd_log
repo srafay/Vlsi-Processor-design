@@ -1,0 +1,8 @@
+xst -ise "C:/Xilinx91i/ccontroller/ccontroller.ise" -intstyle ise -ifn controller.xst -ofn controller.syr
+xst -ise "C:/Xilinx91i/ccontroller/ccontroller.ise" -intstyle ise -ifn controller.xst -ofn controller.syr
+xst -ise "C:/Xilinx91i/ccontroller/ccontroller.ise" -intstyle ise -ifn controller.xst -ofn controller.syr
+xst -ise "C:/Xilinx91i/ccontroller/ccontroller.ise" -intstyle ise -ifn controller.xst -ofn controller.syr
+xst -ise "C:/Xilinx91i/ccontroller/ccontroller.ise" -intstyle ise -ifn controller.xst -ofn controller.syr
+xst -ise "C:/Xilinx91i/ccontroller/ccontroller.ise" -intstyle ise -ifn controller.xst -ofn controller.syr
+xst -ise "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/ccontroller.ise" -intstyle ise -ifn controller.xst -ofn controller.syr
+xst -ise "C:/Users/Parkash Rajwani/Documents/vlsiproject/vlsiproject/ccontroller/ccontroller.ise" -intstyle ise -ifn controller.xst -ofn controller.syr

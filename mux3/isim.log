@@ -1,0 +1,38 @@
+ command line:
+   ./check_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1106
+
+Mon Feb 20 03:10:32 2017
+
+Total Line Count : 64
+
+ Elaboration time : 0.03125 sec.
+
+ Estimate current memory usage : 117.367 Meg. 
+
+ Total Signals          : 14
+ Total Nets             : 42
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 155
+ntrace select -o on -n /check_v/y 
+ntrace select -o on -n /check_v/s 
+ntrace select -o on -n /check_v/d0 
+ntrace select -o on -n /check_v/d1 
+ntrace select -o on -n /check_v/d2 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.078125 sec.
+
+ Estimate current memory usage : 121.561 Meg. 
+
+Mon Feb 20 03:32:32 2017
+

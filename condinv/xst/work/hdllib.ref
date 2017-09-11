@@ -1,0 +1,4 @@
+MO mux2d NULL ../mux2/mux2d.v vlg54/mux2d.bin 1487207940
+MO invertd NULL ../inverter/invertd.v vlg28/invertd.bin 1487207940
+MO condinvd NULL condinvd.v vlg6D/condinvd.bin 1487207940
+MO andop NULL ../and/andop.v vlg66/andop.bin 1486733525

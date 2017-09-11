@@ -1,0 +1,45 @@
+ command line:
+   ./regcheck_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1300
+
+Sat Apr 01 08:53:44 2017
+
+Total Line Count : 96
+
+ Elaboration time : 0 sec.
+
+ Estimate current memory usage : 132.743 Meg. 
+
+ Total Signals          : 23
+ Total Nets             : 73
+ Total Signal Drivers   : 15
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 18
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 257
+ntrace select -o on -n /regcheck_v/regDst 
+ntrace select -o on -n /regcheck_v/rd1 
+ntrace select -o on -n /regcheck_v/rd2 
+ntrace select -o on -n /regcheck_v/clk 
+ntrace select -o on -n /regcheck_v/regwrite 
+ntrace select -o on -n /regcheck_v/a 
+ntrace select -o on -n /regcheck_v/b 
+ntrace select -o on -n /regcheck_v/ra1 
+ntrace select -o on -n /regcheck_v/ra2 
+ntrace select -o on -n /regcheck_v/memtoreg 
+ntrace select -o on -n /regcheck_v/wa 
+ntrace select -o on -n /regcheck_v/wd 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.0156 sec.
+
+ Estimate current memory usage : 141.132 Meg. 
+
+Sat Apr 01 09:03:56 2017
+

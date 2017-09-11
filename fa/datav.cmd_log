@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/dell/Desktop/vlsiproject/fa/datav.xst" -ofn "C:/Users/dell/Desktop/vlsiproject/fa/datav.syr" 
+xst -intstyle ise -ifn "C:/Users/dell/Desktop/vlsiproject/fa/datav.xst" -ofn "C:/Users/dell/Desktop/vlsiproject/fa/datav.syr" 
+xst -intstyle ise -ifn "C:/Users/dell/Desktop/vlsiproject/fa/datav.xst" -ofn "C:/Users/dell/Desktop/vlsiproject/fa/datav.syr" 
+xst -intstyle ise -ifn "C:/Users/dell/Desktop/vlsiproject/fa/datav.xst" -ofn "C:/Users/dell/Desktop/vlsiproject/fa/datav.syr" 
+xst -intstyle ise -ifn "C:/Users/dell/Desktop/vlsiproject/fa/datav.xst" -ofn "C:/Users/dell/Desktop/vlsiproject/fa/datav.syr" 
+xst -intstyle ise -ifn "C:/Users/dell/Desktop/vlsiproject/fa/datav.xst" -ofn "C:/Users/dell/Desktop/vlsiproject/fa/datav.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 datav.ngc datav.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o datav_map.ncd datav.ngd datav.pcf 
+par -w -intstyle ise -ol high -mt off datav_map.ncd datav.ncd datav.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml datav.twx datav.ncd -o datav.twr datav.pcf 

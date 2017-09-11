@@ -1,0 +1,4 @@
+xst -ise "C:/Xilinx91i/mux4/mux4.ise" -intstyle ise -ifn mux4.xst -ofn mux4.syr
+xst -ise "C:/Xilinx91i/mux4/mux4.ise" -intstyle ise -ifn mux4.xst -ofn mux4.syr
+xst -ise "C:/Xilinx91i/mux4/mux4.ise" -intstyle ise -ifn mux4.xst -ofn mux4.syr
+xst -ise "C:/Xilinx91i/mux4/mux4.ise" -intstyle ise -ifn mux4.xst -ofn mux4.syr

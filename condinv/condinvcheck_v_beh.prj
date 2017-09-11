@@ -1,0 +1,5 @@
+verilog work "../mux2/mux2d.v"
+verilog work "../and/andop.v"
+verilog work "condinvd.v"
+verilog work "condinvcheck.v"
+verilog work "C:/Xilinx91i/verilog/src/glbl.v"

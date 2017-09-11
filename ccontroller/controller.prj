@@ -1,0 +1,4 @@
+verilog work "../statelogic/statelogic.v"
+verilog work "../outputlogic/outputlogic.v"
+verilog work "../aludec/aludec.v"
+verilog work "controller.v"

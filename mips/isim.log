@@ -1,0 +1,69 @@
+ command line:
+   ./test_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  6379
+
+Wed Apr 05 09:47:25 2017
+
+WARNING:Simulator:16 - For instance /test_v/uut/dp/regmux/, width 8 of formal
+   port d0 is not equal to width 5 of actual.
+WARNING:Simulator:16 - For instance /test_v/uut/dp/regmux/, width 8 of formal
+   port d1 is not equal to width 5 of actual.
+Total Line Count : 577
+
+ Elaboration time : 0.0312 sec.
+
+ Estimate current memory usage : 138.523 Meg. 
+
+ Total Signals          : 306
+ Total Nets             : 551
+ Total Signal Drivers   : 95
+ Total Blocks           : 35
+ Total Primitive Blocks : 29
+ Total Processes        : 94
+ Total Traceable Variables  : 70
+ Total Scalar Nets and Variables : 1800
+ntrace select -o on -n /test_v/read2 
+ntrace select -o on -n /test_v/alucheck 
+ntrace select -o on -n /test_v/src1 
+ntrace select -o on -n /test_v/src2 
+ntrace select -o on -n /test_v/branch 
+ntrace select -o on -n /test_v/regdst 
+ntrace select -o on -n /test_v/pcsrc 
+ntrace select -o on -n /test_v/regwrite 
+ntrace select -o on -n /test_v/nextpcvalue 
+ntrace select -o on -n /test_v/memwrite 
+ntrace select -o on -n /test_v/Reg2Adr 
+ntrace select -o on -n /test_v/pcen 
+ntrace select -o on -n /test_v/memtoreg 
+ntrace select -o on -n /test_v/zero 
+ntrace select -o on -n /test_v/RgDst 
+ntrace select -o on -n /test_v/adr 
+ntrace select -o on -n /test_v/instr 
+ntrace select -o on -n /test_v/memread 
+ntrace select -o on -n /test_v/irwrite 
+ntrace select -o on -n /test_v/pcvalue 
+ntrace select -o on -n /test_v/Reg1Adr 
+ntrace select -o on -n /test_v/iord 
+ntrace select -o on -n /test_v/writedata 
+ntrace select -o on -n /test_v/alusrca 
+ntrace select -o on -n /test_v/alusrcb 
+ntrace select -o on -n /test_v/alucontrol 
+ntrace select -o on -n /test_v/read1 
+ntrace select -o on -n /test_v/clk 
+ntrace select -o on -n /test_v/memdata 
+ntrace select -o on -n /test_v/reset 
+ntrace select -o on -n /test_v/a1 
+ntrace select -o on -n /test_v/b1 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.1092 sec.
+
+ Estimate current memory usage : 144.814 Meg. 
+
+Wed Apr 05 09:48:19 2017
+
